@@ -4,9 +4,16 @@ from routes.chat import chat_router
 
 app = FastAPI(title="AI Agent Backend")
 
+# Allow requests from your frontend Render domain
+origins = [
+    "https://ai-agent-frontend-6fld.onrender.com/",  # Replace with your actual frontend Render URL
+    "http://localhost:3000",                   # For local dev
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
