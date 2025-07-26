@@ -6,8 +6,8 @@ app = FastAPI(title="AI Agent Backend")
 
 # Allow requests from your frontend Render domain
 origins = [
-    "https://ai-agent-frontend-6fld.onrender.com/",  # Replace with your actual frontend Render URL
-    "http://localhost:3000",                   # For local dev
+    "https://ai-agent-frontend-6fld.onrender.com",  # No trailing slash
+    "http://localhost:3000",  # For local development
 ]
 
 app.add_middleware(
