@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+langchain
+langgraph
+duckduckgo-search
+langchain-community
+litellm
+chromadb
+httpx
+python-dotenv
+sse-starlette

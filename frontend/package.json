@@ -1,0 +1,35 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.6.0",
+    "@next/font": "^14.2.15",
+    "bootstrap": "^5.3.7",
+    "bootstrap-icons": "^1.13.1",
+    "framer-motion": "^11.18.2",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.1",
+    "lottie-react": "^2.4.1",
+    "lucide-react": "^0.326.0",
+    "next": "14.2.3",
+    "react": "18.2.0",
+    "react-bootstrap-icons": "^1.11.6",
+    "react-dom": "18.2.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "autoprefixer": "^10.4.21",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
+  }
+}
