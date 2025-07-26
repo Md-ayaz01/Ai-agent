@@ -1,2 +1,2 @@
-export const API_BASE = "http://localhost:8000/api";
+export const API_BASE = "https://ai-agent-backend-ya04.onrender.com";
 export const CHAT_STREAM = `${API_BASE}/chat/stream`;
